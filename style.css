@@ -1,0 +1,103 @@
+html {
+    background-color: cadetblue;
+    text-align: center;
+    font-family: times, arial;
+  }
+  #title {
+    color: lightcyan;
+    text-align: center;
+    width: 95%;
+    line-height: 5%;
+  }
+  #topDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    height: 30%;
+    width: 100%;
+  }
+  #formDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:70%;
+    width: 100%;
+    padding: 0;
+  }
+  #leftDiv {
+    text-align: center;
+    font-size: medium;
+    color: darkgreen;
+    display: inline-block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 10px 15px 0;
+  }
+  #leftDiv input {
+    color: darkgreen;
+    background-color: silver;
+    border-radius: 25px;
+    font-variant-caps: all-petite-caps;
+  }
+  #leftDiv label{
+    color: lightcyan;
+    text-align: left;
+    font-size: 14px;
+    font-variant-caps: petite-caps;
+  }
+  #rightDiv {
+    text-align: center;
+    font-size: medium;
+    color: darkgreen;
+    display: inline-block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 10px 15px 0;
+  }
+  #rightDiv label{
+    color: lightcyan;
+    text-align: left;
+    font-size: 14px;
+    font-variant-caps: petite-caps;
+  }
+  #rightDiv select {
+    color: darkgreen;
+    background-color: silver;
+    border-radius: 25px;
+    font-variant-caps: all-small-caps;
+  }
+  #bottomDiv {
+    text-align: center;
+    font-size: medium;
+    color: darkgreen;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 15px 0 15px 0;
+  }
+  #bottomDiv textarea{
+    width: 100%;
+    height: 100px;
+    color: darkgreen;
+    background-color: silver;
+  }
+  #bottomDiv label{
+    color: lightcyan;
+    text-align: left;
+    font-size: 14px;
+    font-variant-caps: petite-caps;
+  }
+  button {
+    background-color: silver;
+    border-radius: 15px;
+  }

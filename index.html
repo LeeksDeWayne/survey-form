@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Are you a social experiment?</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div id="topDiv">
+        <h1 id="title">Social Media In Your Life</h1>
+        <p id="description">Welcome! Social Media has become more and more intergrated within our lives recently. It seems that children and adults alike frequent Social Media often. Are you one of the Social Media loyalists? Are you anti-Social Media? Are you somewhere in-between?<br><br>No matter where you are on this spectrum, I am interested in you feedback!</p>
+        </div>
+        <div id="formDiv">
+            <form id="survey-form">
+                <div id="leftDiv">
+                    <label id="name-label" for="name">First Name:</label><br>
+                    <input type="text" id="name" placeholder="Hello! What should I call you?" required><br>
+                    <label id="lastName-label" for="lastName">Last Name:</label><br>
+                    <input type="text" id="lastName" placeholder="What about a last name?" required><br>
+                    <label id="email-label" for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="We promise not to spam you."><br>
+                    <label id="number-label" for="number">Age:</label><br>
+                    <input type="number" id="number" placeholder="How old are you?" min="5" max="120" required><br>
+                </div>
+                <div id="rightDiv">
+                    <label id="yesNo" for="no">Do you use Social Media?</label><br>
+                    <input id="no" type="radio" name="inputRadio" value="0" checked=''>No
+                    <input id="yes" type="radio" name="inputRadio" value="1">Yes<br>
+                    <label id="timesUsed" for="dropdown">How often do you use Social Media?</label><br>
+                    <select id="dropdown" required>
+                        <option disabled selected value="">---Please Select One---</option>
+                        <option value="0">0 times a day</option>
+                        <option value="1">1-2 times a day</option>
+                        <option value="2">2-3 times a day</option>
+                        <option value="3">3-4 times a day</option>
+                        <option value="4">4-5 times a day</option>
+                        <option value="5">5+ times a day</option>
+                    </select><br>
+                    <label id="checkbox-label" for="checkbox">Which platform(s) do you use?</label><br>
+                    <input type="checkbox" value="1" id="checkbox" name="platform">Facebook
+                    <input type="checkbox" value="2" name="platform">Instagram
+                    <input type="checkbox" value="3" name="platform">Twitter<br>
+                    <input type="checkbox" value="4" name="platform">Youtube
+                    <input type="checkbox" value="5" name="platform">Tik Tok
+                    <input type="checkbox" value="0" name="platform">other
+                </div>
+                <div id="bottomDiv">
+                    <label id="textarea-label" for="textarea">How do you feel Social Media impacts your life?</label><br>
+                    <textarea id="textarea" placeholder="Please briefly describe Social Media's impact on your life"></textarea>
+                </div>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <p>Thank you so much for your time! Go enjoy your day!</p>
+        </div>
+
+    </body>
+</html>
